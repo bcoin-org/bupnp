@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "binet": "^0.0.1",
-    "breq": "^0.0.1"
+    "brq": "^0.0.1"
   },
   "devDependencies": {
     "babelify": "^7.3.0",
