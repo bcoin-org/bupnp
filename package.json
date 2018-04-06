@@ -21,7 +21,7 @@
     "webpack": "webpack --config webpack.config.js"
   },
   "dependencies": {
-    "binet": "~0.1.0",
+    "binet": "~0.2.0",
     "brq": "~0.0.2"
   },
   "devDependencies": {
