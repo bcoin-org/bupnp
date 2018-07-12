@@ -8,6 +8,26 @@ UPNP for node.js.
 const UPNP = require('bupnp');
 ```
 
+## API
+
+```javascript
+// Set a timeout
+UPNP.RESPONSE_TIMEOUT = 1000
+
+// Discovering internet gateway (upnp)
+let wan = await UPNP.discover()
+
+// Find external IP (upnp)
+let host = await wan.getExternalIP()
+
+// Add port mapping (remoteHost, externalPort, internalPort)
+await wan.addPortMapping(host, src, dest)
+
+// Remove port mapping
+await wan.removePortMapping(host, port)
+```
+
+
 ## Contribution and License Agreement
 
 If you contribute code to this project, you are implicitly allowing your code
