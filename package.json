@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "binet": "~0.3.0",
-    "brq": "~0.1.0"
+    "brq": "~0.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
