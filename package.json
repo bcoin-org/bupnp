@@ -1,6 +1,6 @@
 {
   "name": "bupnp",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "UPNP client for node.js",
   "keywords": [
     "upnp"
@@ -18,9 +18,9 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "binet": "~0.3.4",
-    "brq": "~0.1.6",
-    "bsert": "~0.0.9"
+    "binet": "~0.3.5",
+    "brq": "~0.1.7",
+    "bsert": "~0.0.10"
   },
   "devDependencies": {
     "bmocha": "^2.1.0"
